@@ -1,0 +1,35 @@
+th{
+    border:1px solid black;
+}
+td{
+    border:1px solid black;
+    padding:10px;
+
+}
+h1{
+    text-align:center;
+}
+body{
+    background-color:yellowgreen;
+}
+table{
+    margin:0 auto;
+}
+img{
+    height:100px;
+    width:100px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.oddrow:hover{
+    background-color:green;
+}
+.evenrow{
+    background-color:rgb(73, 203, 212);
+}
+.evenrow:hover{
+    background-color:rgb(46, 149, 156);
+}
+.tableheaders{
+    background-color:rgb(7, 97, 7);
+}

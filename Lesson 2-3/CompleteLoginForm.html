@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>LoginForm</title>
+    <style>
+    .TableLog, td {
+        border: 2px solid black;
+    }
+    .TableLog td {
+        padding: 10px;
+    }
+    </style>
+</head>
+<body>
+    <table class="TableLog">
+        <tr>
+            <td>Last name</td>
+            <td><form><input type="text" name="nameLast" placeholder="Enter your last name:"></form></td>
+        </tr>
+        <tr>
+            <td>First name</td>
+            <td><form><input type="text" name="nameFirst" placeholder="Enter your first name:"></form></td>
+        </tr>
+        <tr>
+            <td>Adress</td>
+            <td><textarea type="text" placeholder="ul. Svoboda 52 et. 62"></textarea></td>
+        </tr>
+        <tr>
+            <td>City</td>
+            <td><form>
+                <input type="text" name="city" id="city" placeholder="Svishtov"> State<input type="text" placeholder="State">
+            </form></td>
+        </tr>
+        <tr>
+            <td>ZIP/Postal Code</td>
+            <td><form><input type="number" name="Postal code" id="ZIP" placeholder="5250"></form></td>
+        </tr>
+        <tr>
+            <td>Country</td>
+            <td><select name="Country" id="Country">
+                <option value="bulgaria">Bulgaria</option>
+                <option value="russia">Russia</option>
+                <option value="japan">Japan</option>
+                <option value="france">France</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Phone(country, area code, number)</td>
+            <td><form>(+<input type="number" placeholder="+359">) <input type="number" placeholder="88">-<input type="number" placeholder="5319846"></td>
+        </tr>
+        <tr>
+            <td>E-mail</td>
+            <td><form>
+                <input type="text" placeholder="randomEmail@yahoo.com">
+            </form></td>
+        </tr>
+        <tr>
+            <td>Birth date</td>
+            <td><form>
+                Month <input type="number" placeholder="01">
+                Day <input type="number" placeholder="10">
+                Year(4 Digit)<input type="number" placeholder="2000">
+            </form></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td><select name="Gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="else">Something else...</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Starting date</td>
+            <td><form>
+                    <input type="radio" checked>Spring 2016
+                    <input type="radio">Winter 2016
+                </form></td>
+        </tr>
+        <tr>
+            <td>Comments/Questions</td>
+            <td><textarea type="text" name="Adress" placeholder="Please send me your comments or questions:"></textarea></td>
+        </tr>
+        <!-- <tr> ctrl+k+c && ctrl+k+u
+            <td>Submit button</td>
+            <td></td>
+        </tr> -->
+    </table>
+</body>
+</html>
